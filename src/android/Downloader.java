@@ -17,16 +17,12 @@ import org.json.JSONObject;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.Manifest;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import android.os.Environment;
+import android.os.Build;
 
 public class Downloader extends CordovaPlugin {
 
